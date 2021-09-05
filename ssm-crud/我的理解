@@ -1,0 +1,5 @@
+1.  web.xml
+        使用  ContextLoaderListener监听器    保证打开服务器就配置IOC容器
+2.  applicationContext.xml
+        开启注解扫描，扫描除  Controller  外的所有注解，
+        配置mybatis的数据源，并连接数据库，
